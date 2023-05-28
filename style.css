@@ -1,0 +1,133 @@
+
+.main{
+    width: 100%;
+    /*background-image: url(../class-8/assets/img/fahmiduzzaman_sagar.jpg);*/
+    background-color:#1F1F24;
+}
+  
+.main-box{
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+    background-color:#1F1F24;
+    border:10px solid #FB8775;
+    border-radius:15px
+}
+
+.boxone{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    top:0;
+    left: 0;
+}
+.boxtwo{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    top:0;
+    right: 0;
+}
+.boxthree{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    left:0;
+    bottom: 0;
+}
+.boxfour{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    right:30px;
+    bottom: 30px;
+    border: 2px solid orange;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+.boxfour img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.boxfour span{
+    color: rgb(51, 50, 47);
+    padding-left: 5px;
+
+}
+
+.boxfive{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top:250px;
+    left: 42%;
+}
+.boxfive h3{
+    display: inline-block;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: -6px;
+}
+
+.my-pic{
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    border: 5px solid burlywood;
+    border-radius: 10px;
+}
+.win{
+    width: 130px;
+    height: 50px;
+    margin-left: -179px;
+    margin-bottom: -15px;
+    z-index: 9999px;
+}
+
+/*display and float property*/
+.displayproperty{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.one{
+    float: left;
+    width: 320px;
+    height: 200px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    margin-right: 5px;
+    overflow: scroll;
+    color: white;
+    padding-left: 5px;
+}
+.two{
+    float: left;
+    width: 320px;
+    height: 200px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    color: white;
+    padding-left: 5px;
+}
+.three{
+    float: left;
+    width: 320px;
+    height: 200px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    overflow: visible;
+    color: white;
+    padding-left: 5px;
+}
+h1, h4{
+    color: white;
+    text-decoration: underline;
+}
